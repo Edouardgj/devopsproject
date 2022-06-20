@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+// eslint-disable-next-line
+import logo from "./img/logo.svg";
+// eslint-disable-next-line
+import "./App.css";
 
 function App() {
   return (
