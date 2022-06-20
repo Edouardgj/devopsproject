@@ -23,7 +23,7 @@ module.exports = {
     },
     "rules": {
         "react/react-in-jsx-scope":"off",
-        //"react/jsx-filename-extension":[1,{"exetensions":[".js",".jsx"]}],
+        //"react/jsx-filename-extension":[1,{"extensions":[".js",".jsx"]}],
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
     }
