@@ -2,25 +2,20 @@
 import logo from "./img/logo.svg";
 // eslint-disable-next-line
 import "./App.css";
+import home from "./pages/Home";
+import faq from './pages/faq';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={home} /> 
+      <Route path="/faq" exact component={faq} /> 
+      <Route component={NotFound} />
+      <Route path="faq" exact component={faq} />
+    </Switch>
+   </BrowserRouter>
   );
 }
 
