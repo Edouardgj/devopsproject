@@ -6,6 +6,7 @@ import logo from "./img/logo.svg";
 import "./App.css";
 import Home from "./pages/Home";
 import Faq from "./pages/Faq";
+import Toys from "./pages/Toys";
 import NotFound from "./pages/NotFound";
 import ReactDOM from "react-dom/client";
 
@@ -17,7 +18,10 @@ root.render(
         <nav>
           <ul>
             <li>
-              <Link to="/Home">Home</Link>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/Toys">Toys</Link>
             </li>
             <li>
               <Link to="/Faq">FAQ</Link>
@@ -27,13 +31,17 @@ root.render(
       </header>
 
       <Switch>
-        <Route exact path="/Home">
+        <Route exact path="/">
           {" "}
           <Home />{" "}
         </Route>
         <Route exact path="/Faq">
           {" "}
           <Faq />{" "}
+        </Route>
+        <Route exact path="/Toys">
+          {" "}
+          <Toys />{" "}
         </Route>
         <Route exact path="/*">
           {" "}
