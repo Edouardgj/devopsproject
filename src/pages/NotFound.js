@@ -1,15 +1,14 @@
 import React from 'react';
-import './CSS/NotFound.css';
 
-function NotFound() {
+const NotFound = () => {
   return (
     <div className="NotFoundContainer" >
       <span className="NFText">
         <p className="NotFoundText">ERRRRR!</p>
-        <p>Il semblerait que la page que vous recherchez n'existe pas.</p>
+        <p>Il semblerait que la page que vous recherchez n&apos;existe pas.</p>
       </span>
     </div>
   );
 }
 
-export default NotFound;
+export default NotFound
