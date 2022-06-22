@@ -1,17 +1,18 @@
+
 {
   "toyslist": [
     {
       "id": 1,
       "name": "Pogostick",
       "price": "65€",
-      "image": "./img/pogostick.png"
+      "description": "sautez sautez sautez, tentez des figures et déplacez vous à toute vitesse"
     },
 
     {
       "id": 2,
       "name": "cheval en bois",
       "price": "100€",
-      "image": "./img/pogostick.png"
+      "description": "balancez-vous, pendant des heures et des heures"
 
     }
   ]
