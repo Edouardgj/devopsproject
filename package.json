@@ -21,8 +21,11 @@
     "prepare": "husky install",
     "prettier": "npx prettier --write ./src/*.js",
     "eslint": "npx eslint './src/*.{js,ts,json}'",
-    "super-commit": "npm run prettier && npm run eslint"
+    "super-commit": "npm run prettier && npm run eslint",
+    "start:server": "json-server -p 4000 --watch db.json"  
   },
+
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -46,6 +49,7 @@
     "cypress": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.30.0",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "json-server": "^0.17.0"
   }
 }

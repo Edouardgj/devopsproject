@@ -1,0 +1,18 @@
+{
+  "toyslist": [
+    {
+      "id": 1,
+      "name": "Pogostick",
+      "price": "65€",
+      "image": "./img/pogostick.png"
+    },
+
+    {
+      "id": 2,
+      "name": "cheval en bois",
+      "price": "100€",
+      "image": "./img/pogostick.png"
+
+    }
+  ]
+}
