@@ -31,6 +31,7 @@ const Toys =() => {
   }).map((Toys) => (
         <div>
           <li> <h1> {Toys.name} </h1> </li>
+          <li> <h3> {Toys.localisation} </h3> </li>
           <li> <h4> {Toys.price} </h4> </li>
           <li> <p>{Toys.description} </p> </li>
         </div>

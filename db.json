@@ -4,15 +4,35 @@
     {
       "id": 1,
       "name": "Pogostick",
-      "price": "65€",
-      "description": "sautez sautez sautez, tentez des figures et déplacez vous à toute vitesse"
+      "price": "35€",
+      "localisation": "Paris",
+      "description": "sautez sautez sautez, tentez des figures et déplacez vous à toute vitesse, dans le parc de la villette, nous vous réservons un super parcours."
     },
 
     {
       "id": 2,
-      "name": "cheval en bois",
-      "price": "100€",
-      "description": "balancez-vous, pendant des heures et des heures"
+      "name": "Finger skate",
+      "price": "10€",
+      "localisation": "Colombes",
+      "description": "Participez aux championnats de France de Fingerskate, avec un skate parc digne des X GAMES."
+
+    },
+
+    {
+      "id": 3,
+      "name": "Kapla",
+      "price": "15€",
+      "localisation": "Versailles",
+      "description": "Venez contruire la plus grande tour de Kapla de France. Avec de la musique et un gigantesque barbecue."
+
+    },
+
+    {
+      "id": 4,
+      "name": "LegoParty",
+      "price": "16€",
+      "localisation": "Nice",
+      "description": "Venez participer à la plus grosse soirée Lego, dans une ambiance de block de votre jeunesse."
 
     }
   ]
