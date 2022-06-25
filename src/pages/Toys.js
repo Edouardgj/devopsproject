@@ -22,7 +22,7 @@ const Toys =() => {
     <div className='divjouets'> 
     <h4>Vous cherchez quelque chose en particulier&nbsp;?</h4>
     <label>	
-    <input placeholder="Votre jouet" onChange={event => setQuery(event.target.value)}/>
+    <input placeholder="Votre activité" onChange={event => setQuery(event.target.value)}/>
     <button className="email-btn">Rechercher</button>
     </label>
     <ul>
