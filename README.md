@@ -1,3 +1,21 @@
+# Agence
+
+Nous sommes l'agence Toys&Fun et nous proposons des activités autour des jouets mythiques de l'enfance.
+
+# Equipe
+
+Edouard Grandjean, Théo Pasquier desvignes, Alexandre Zeghdoud
+
+# GitHub 
+
+https://github.com/Edouardgj/devopsproject
+
+# Netlifly 
+
+https://wsf4a-devsecop-gpz.netlify.app/ 
+
+La nouvelle version du site ne veut pas s'actualiser sur Netlifly, il est donc nécessaire de l'ouvrir avec un "npm run start:server" puis un "npm start" pour voir notre site d'agence 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
