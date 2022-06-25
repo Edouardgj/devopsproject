@@ -8,7 +8,7 @@ Edouard Grandjean, Théo Pasquier desvignes, Alexandre Zeghdoud
 
 # GitHub 
 
-https://github.com/Edouardgj/devopsproject
+https://edouardgj.github.io/devopsproject/
 
 # Netlifly 
 
