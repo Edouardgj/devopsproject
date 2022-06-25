@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Home.css";
 
 
 const Home = () => {
@@ -11,7 +12,9 @@ const Home = () => {
                     <p>Nous avons décidé de créer cette agence d&apos;évenementiel afin de permettre aux adultes de redevenir de grands enfants le temps d&apos;une soirée ou d&apos;une après midi.</p>
                 </div>
             </div>
-        </div>
+            
+     </div>
+     
     );
   }
   

@@ -16,7 +16,7 @@ root.render(
     <div>
       <header>
         <nav>
-          <ul>
+          <ul className="index">
             <li>
               <Link to="/">Home</Link>
             </li>

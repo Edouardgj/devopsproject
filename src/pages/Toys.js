@@ -20,7 +20,11 @@ const Toys =() => {
   return (
     <>
     <div className='divjouets'> 
+    <h4>Vous cherchez quelque chose en particulier&nbsp;?</h4>
+    <label>	
     <input placeholder="Votre jouet" onChange={event => setQuery(event.target.value)}/>
+    <button className="email-btn">Rechercher</button>
+    </label>
     <ul>
     {Toys.filter(Toys => {
     if (query === '') {
@@ -29,7 +33,7 @@ const Toys =() => {
       return Toys;
     }
   }).map((Toys) => (
-        <div>
+        <div className="toys_container">
           <li> <h1> {Toys.name} </h1> </li>
           <li> <h3> {Toys.localisation} </h3> </li>
           <li> <h4> {Toys.price} </h4> </li>
